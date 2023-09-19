@@ -1,2 +1,0 @@
-# jihc-restourant
-Restourant example
