@@ -131,8 +131,8 @@ footer{
 }
 
 .img3{
-  width: 45%;
-  height: 25%;
+  width: 55%;
+  height: 40%;
   margin-left: 270px;
 }
 
@@ -145,11 +145,4 @@ footer{
   text-align: center;
   width: 50%;
   height: 200px;
-}
-
-.img4{
-  
-  height: 200px;
-  width: 200px;
-  padding-left: 200px;
 }
