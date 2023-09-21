@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(141, 160, 14);
+   margin-inline-start: auto;
+    text-align: center;
+   
+}
+ 
+
+h2 {
+    color:rgb(228, 232, 203)
+    
+    
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(248, 251, 248);
+  }
+  
+    /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
