@@ -1,0 +1,122 @@
+body {
+    background-image: url(https://i.pinimg.com/564x/01/98/82/0198821f918b1f6bff7ca939dff063f3.jpg);
+    text-align: center;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+}
+.menu {
+    color: #3F2537;
+    font-weight: 400px;
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+}
+
+nav {
+    margin-bottom: 400px;
+}
+
+.navbar .coctailop {
+    text-decoration: underline;
+}
+
+.navbar a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    font-size: 20px;
+    color: #3f2537;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+ .navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #3F2537;
+    transition: 2s;
+ }
+
+ .navbar a:hover:before {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: -1px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+.grotta{
+    font-size: 32px;
+    color: #3F2537;
+    text-decoration: none;
+    font-weight: 700px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #3F2537;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar ::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #3F2537;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+footer h3{
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-position: center;
+    background-color: #693f1b;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
